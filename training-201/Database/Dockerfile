@@ -4,4 +4,4 @@ MAINTAINER Adarsha <adarsha.somanna@mindtree.com>
 
 ENV MYSQL_DATABASE sample
 
-COPY . /docker-entrypoint-initdb.d/
+COPY ./script.sql /docker-entrypoint-initdb.d/
